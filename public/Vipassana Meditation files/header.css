@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display: block;
+    top: 0px;
+    z-index: 20;
+}
+
+header{
+    background-image: url("header.png"); 
+    background-size: 1295px 100px;
+    background-repeat: no-repeat;
+    display: block;
+    height: 80px;
+    width: 100%;
+    display: block;
+    /*border-radius: 10px 10px 0 0;*/
+
+}
+
+header #bar{
+    margin: 0px;
+    /*margin-left: 10px;
+    margin-right: 10px;*/
+}
+
+#logo{
+    width: 80px;
+    height: 120px;
+    float :left;
+    /*margin-top: 20px;*/
+    //border-style: solid;
+    border-width: thin;
+    //background-color: #2daafa;
+}
+#logo img{
+    width: 80px;
+    height: 120px;
+}

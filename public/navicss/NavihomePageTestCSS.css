@@ -1,0 +1,100 @@
+.clearfix:after {
+    display:block;
+    clear:both;
+}
+ 
+/*----- Menu Outline -----*/
+.menu-wrap {
+    width:100%;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+    background:#0059B2;
+    z-index: 20;
+}
+ 
+.menu {
+    width:1000px;
+    margin:0px auto;
+    float:left;
+    padding:10px;
+    z-index: 20;
+}
+ 
+.menu li {
+    margin:0px;
+    list-style:none;
+    font-family:'Ek Mukta';
+    font-size:50px;
+    z-index: 20;
+}
+ 
+.menu a {
+    transition:all linear 0.15s;
+    color: #0000D9 /* navigation bar font color */
+}
+ 
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color: #67B545;   /* navigation bar font hide  color(2nd color) */
+}
+
+ /*change the arrow size*/
+.menu .arrow {
+    font-size:12px;
+    line-height:0%;
+}
+ 
+/*----- Top Level -----*/
+.menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:50px;
+}
+ /*navigation bar ake background size*/
+.menu > ul > li > a {
+    padding:10px 40px;
+    display:inline-block;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+    z-index: 20;
+}
+ 
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    background:#F6F6F6;  /* navigation bar background color #DBDBEA */
+}
+ 
+/*----- Bottom Level -----*/
+.menu li:hover .sub-menu {
+    z-index:20;
+    opacity:1;
+}
+ 
+.sub-menu {
+    width:100%;   /*  you can change width of */
+    padding:2px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    opacity:0;
+    transition:opacity linear 0.15s;
+  /*  box-shadow:0px 2px 3px rgba(0,0,0,0.2);*/
+    background:#F6F6F6;  /* sub manu background color #EEEEEE */
+    font-size:50px;
+    z-index: 20;
+}
+ 
+.sub-menu li {
+    display:block;
+    font-size:50px;
+}
+
+
+ 
+.sub-menu li a {
+    padding:10px 30px;
+    display:block;
+    font-size:25px;     /*change sub manu font size..*/
+}
+ /*edit */
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background: #73DCFF ;  /*#8AC007 #73DCFFsub manu tabs background color*/
+}

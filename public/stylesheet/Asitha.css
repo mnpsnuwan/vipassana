@@ -1,0 +1,96 @@
+.tftable {font-size:12px;color:#333333;width:auto;border-width: 2px;border-color: #729ea5;border-collapse: collapse;padding-left:50px;font-family: Helvetica; align:center}
+.tftable th {font-size:16px;background-color:#acc8cc;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;text-align:left;width:auto; font-family: Helvetica;}
+.tftable tr {background-color:#d4e3e5;font-family: Helvetica; width:auto; }
+.tftable td {font-size:14px;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;font-family: Helvetica;width:auto; }
+.tftable tr:hover {background-color:#ffffff;font-family: Helvetica;}
+
+.button {
+	margin-left:90px;
+	padding: 8px 15px 5px 15px;
+	width:150px;
+	height:36px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:16px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	border: solid 1px #0076a3;
+	background: #0095cd;
+	border-radius: 5px;
+	
+	}
+	
+.button:hover {
+	text-decoration: none;
+	background: #007ead;
+	}
+	
+.buttonadd {
+	margin-left:10px;
+	padding: 8px 15px 5px 15px;
+	width:150px;
+	height:36px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:16px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	border: solid 1px #0076a3;
+	background: #0095cd;
+	border-radius: 5px;
+	
+	}
+	
+.buttonadd:hover {
+	text-decoration: none;
+	background: #007ead;
+	}
+.AddNecessityBody{
+	background-color:#EAF6F6;
+	float:center;
+	height:300px;
+	width:600px;
+	border-radius: 15px;
+	text-align:center;
+	margin:auto;
+	padding-top:20px;
+	padding-left:90px;}
+	
+.lables{
+	
+	width:150px;
+	height:20px;
+	padding:10px;
+	/*padding: 5px 15px;*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:15px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF;
+	border: solid 1px #0076a3;
+	background: #5380BB;
+	border-radius: 5px;
+	margin:10px;
+	
+	
+	}
+.textbox{
+	height:40px;
+	width:250px;
+	}
+	
+#drop_down_list{
+width:250px;
+height:40px;
+}
+
+.addTable{
+	padding-bottom:5px;
+	Margin:10px;
+}

@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+.parttable {
+	position: absolute;
+	left: 18px;
+	top: 443px;
+	width: 1111px;
+	height: 140px;
+	z-index: 15;
+}
+
+.photos div {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.photos div img.normal {
+	z-index: 99;
+	position: absolute;	
+}
+.photos div img.select {
+	position: absolute;
+}
+
+
+#slider_wrapper{
+	width:auto;
+	height:400px;
+	display:relative;
+	z-index:1;
+	overflow:hidden;
+	margin-bottom: 20px;
+	
+}
+
+#slide_back,#slide_front{
+	width:auto;
+	height:400px;
+	position:absolute;
+	margin-left: 10px;
+	/*top: 160px;*/
+	z-index:2;
+	overflow:hidden;
+	margin-bottom: 20px;
+	
+}
+
+#controls{
+	width: 1025px;
+	height: 400px;
+	position: absolute;
+	overflow: hidden;
+	z-index: 3;
+	left: 270px;
+	top: 160px;
+}
+
+#arrow_wrapper{
+	width: 1025px;
+	height: 30px;
+	position: relative;
+	z-index: 4;
+	
+	top:175px;
+}
+
+#left{
+	width:30px;
+	height:30px;
+	cursor:pointer;
+	background-image:url(../images/Slides/arrowLeft.png);
+	float:left;
+	position:relative;
+	z-index:5;
+}
+
+#left:hover{
+	background-image:url(../images/Slides/arrowLeftSel.png);
+}
+
+
+#right{
+	width:30px;
+	height:30px;
+	cursor:pointer;
+	background-image:url(../images/Slides/arrowRight.png);
+	float:right;
+	position:relative;
+	z-index:5;
+}
+
+#right:hover{
+	background-image:url(../images/Slides/arrowRightSel.png);
+}
+
+#jumpers{
+	z-index: 5;
+	position: absolute;
+	left: 390px;
+	top: 365px;
+	text-align: center;
+	width: 250px;
+}
+
+#jumpers ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+#jumpers ul li{
+	display:inline-block;
+	width:17px;
+	height:5px;
+	background-color:#000;
+	margin:0 5px;
+	opacity:0.75;
+}
+
+#jumpers ul li.current{
+	background-color:#00ff90;
+}
+	
+#jumpers ul li:hover{
+	background-color:#fff;
+	cursor:pointer;
+}
+
+#counter{
+	display:none;
+}

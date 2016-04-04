@@ -1,0 +1,326 @@
+html, body {border: 0px none;
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  background:#f4f4f4;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 15;
+}
+
+footer, header{
+    display: block;
+}
+
+header #bar {
+    background-color: #c8c8c8;
+    display: block;
+    height: 100px;
+    line-height: 150px;
+    overflow: hidden;
+    padding: 0px 1.95em;
+    width: 100%;
+}
+
+header #nav-content {
+    height: 100%;
+
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.5s ease-in 0s;
+}
+
+ul, ul li, p, div, ol {margin:0;padding:0;list-style:none;}
+
+h3{
+    font-family: Algerian,Verdana;
+    margin: 5px;
+    color: #040afb;
+    /*color: rgb(10, 132, 100);*/
+    letter-spacing: 1px;
+    line-height: 1.2;
+    text-align:left;
+    font-size: 20px;
+    font-weight: 40;
+}
+
+
+#content { 
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    background-color: #c6c6c6;
+
+padding: 0 0 0 0; }
+
+.container{
+    width: 100%;
+    height: 60%;
+}
+
+.alerts { padding: 0; margin-bottom: 20px; font-size: .9em; }
+    .alerts li { margin-bottom: 3px; list-style: none; }
+    .alerts li.success { background: #c8eebf; border:1px solid green; color:green; 
+        padding: 8px; }
+    .alerts li.warning { background: #f6f6cf; border:1px solid orange; color:orange; 
+        padding: 8px; }
+    .alerts li.error { background: #fce9e9; border:1px solid red; color:red; 
+        padding: 8px; }
+
+label{
+ 
+
+    font-family: AmerType Md BT; 
+ }
+ label[for=username],[for=password]{ 
+      display: block; 
+      padding-top:6px;
+      font-weight: bold;
+    float: left;
+     width: 140px;
+ }
+ label[for=remember_me]{
+  padding-left: 20px;
+  //width: 10px;
+ }
+input[type=checkbox]{/*make check box of remember me on this computer(kotuwa dekarete kla)*/
+  border: 1px solid #c0c0c0;
+  margin: 0 0.1em 0 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1em;
+  width: 1.25em;
+  height: 1.25em;
+  background: #fff;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ededed), to(#fbfbfb)); 
+  -webkit-appearance: none;
+  -webkit-box-shadow: 1px 1px 1px #fff;
+  -webkit-border-radius: 0.25em;
+  vertical-align: text-top;
+  display: inline-block;
+ 
+}
+
+input[type=checkbox]:checked::after {/*Check box tic mark*/
+  content:'\2022';/*add tic mark code to this space*/
+  display:block;
+  text-align: center;
+  font-size: 16px;
+  height: 16px;
+  line-height: 18px;
+}
+
+input[type=password], input[type=username] { 
+    padding: 4px; 
+    float: left; 
+    font-family: AmerType Md BT;
+}
+
+input[type=submit],  input[type=reset]{
+    font-family: AmerType Md BT;
+    width: 80px;
+    padding: 0px 1px;
+    height: 29px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #527881;
+    text-shadow: 0px 1px #E3F1F1;
+    background: #CDE5EF linear-gradient(to bottom, #EDF5F8, #CDE5EF) repeat scroll 0% 0%;
+    border-width: 1px;
+    border-style: solid;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    border-color: #B4CCCE #B3C0C8 #9EB9C2;
+    border-radius: 8px;
+    outline: 0px none;
+    box-sizing: content-box;
+    box-shadow: 0px 1px #FFF inset, 0px 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+
+.required { color: red; font-size: 1em; margin: 20px 0; }
+div.error { float: left; color: red; padding: 6px 0 0 10px; font-size:.8em; }
+.row { clear:both; margin-bottom: 4px; float:left; }
+
+
+
+#header{
+    width: 750px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 20px;
+    //border-style: solid;
+    border-width: thin;
+    //background-color: #2daafa;
+}
+
+
+/*footer .contain {
+    background-color: #c8c8c8;
+    border-bottom: 1px solid #E0E0E0;
+    display: block;
+    line-height: 1px;
+    overflow: hidden;
+    padding: 0px 1.95em;
+    width: 100%;
+
+}*/
+footer {
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+
+    height: 75px;
+    background-color: #c8c8c8;
+    //padding-bottom: 2.5em;
+}
+
+footer .contain {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.75em 70em;
+
+}
+
+h1,h2,h3{  /* main title and sub-title */
+	font-family: AmerType Md BT;
+	margin: 5px;
+	color: #040afb;
+	//color: rgb(10, 132, 100);
+	letter-spacing: 0px;
+	line-height: 1.2;
+	text-align:left;
+}
+h1 {
+    font-family: AmerType Md BT;
+	font-size: 50px;
+	font-weight: 400;
+	/*padding: 0.2em 0;*/
+
+}
+h2 {
+	font-family: AmerType Md BT;
+	font-size: 30px;
+	color: #5d2cfa;
+	font-weight: 400;
+	padding: 0.2em 0;
+}
+h3{
+    font-size: 25px;
+}
+
+
+/*when click the button its show that it click*/
+
+.btn:active { 
+    
+  background: linear-gradient(#11A1D6,#0E86B2);
+  text-shadow: 1px 1px 1px #0E86B2; 
+  background: #cde5ef;
+  border-color: #9eb9c2 #b3c0c8 #b4ccce;
+  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+  
+}
+
+/*Create button*/
+
+ .btn{
+ 
+  text-decoration: none;/*remove hyper link under line*/
+  padding: 20px 35px 10px;
+  height: 25px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #527881;/*show alperpet color*/
+  text-shadow: 0 1px #e3f1f1;
+  background: #B2CCCC;/*when click button show this color*/
+  border: 1px solid;
+  border-color: #b4ccce #b3c0c8 #9eb9c2;
+  border-radius: 10px;
+  outline: 0;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  background-image: -webkit-linear-gradient(top, #edf5f8, #cde5ef);
+  background-image: -moz-linear-gradient(top, #edf5f8, #cde5ef);
+  background-image: -o-linear-gradient(top, #edf5f8, #cde5ef);
+  background-image: linear-gradient(to bottom, #edf5f8, #cde5ef);
+  -webkit-box-shadow: inset 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+/*button posistion*/
+
+.btn{
+    
+    /*background:#BFA6E6;*/
+    position:relative;
+    transition: .8s ease: 0.8s;
+    top: 20px;
+    left: 150px;
+    right: auto;
+    padding-bottom: 10px;
+    
+}
+
+/*Changed button word type*/
+
+.btn span{
+    
+    font-weight: bold;
+    font-size: 22px;
+    color: #527881;
+}
+
+select{
+  font-size: 13px;
+  font-family: 'Lucida Grande', Tahoma, Verdana, sans-serif;
+}
+select[id=lang-chooser]{
+  margin: 5px;
+  padding: 0 10px;
+  height: 25px;
+  color: #02025e;
+  background: white;
+  border: 1px solid;
+  border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+  border-radius: 2px;
+  outline: 5px solid #eff4f7;
+  -moz-outline-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+input[type=text], [type=password]{/*Decarate text field(input space)*/
+  margin: 5px;
+  padding: 0 10px;
+  width: 250px;
+  height: 25px;
+  color: #02025e;
+  background: white;
+  border: 1px solid;
+  border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+  border-radius: 2px;
+  outline: 5px solid #eff4f7;
+  -moz-outline-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+input[type=text]:focus, input[type=password]:focus{/*Hilight input area*/
+  border-color: #7dc9e2;
+  outline-color: #dceefc;
+  outline-offset: 0;

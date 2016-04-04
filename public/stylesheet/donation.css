@@ -1,0 +1,15 @@
+.fix_section1{
+	min-width: 320px;
+	min-height: 120px;
+}
+.area-padding{
+	width: auto;
+	height: auto;
+	line-height: 30px;
+	padding: 10px;
+}
+.menu-wrap1 {
+    width:100%;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+    background:#0059B2;
+}

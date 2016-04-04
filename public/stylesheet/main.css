@@ -1,0 +1,123 @@
+.jumbotron{
+	position: relative;
+	background-color: rgba(0,153,255, .3);
+	width: 100%;
+	height: 60%;
+	background-size: cover;
+	overflow: hidden;
+}
+#header{
+	position: relative;
+	background-color: #EAF6F6;
+	padding-top: 0px;
+	padding-bottom: 1px;
+	border-bottom: 1px solid black;
+	height: 120px;
+	/*display: block; */
+}
+#footer {
+    background-color:#EAF6F6;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:425px;
+    width:215px;
+    float:left;
+    padding:5px;
+}
+#nav1 {
+    line-height:30px;
+    background-color:rgba(0,153,255, .3);
+    height: 1500px;
+    width:200px;
+    float:left;
+    padding:5px;
+}
+#section {
+    width:350px;
+    clear: both;
+    padding:5px;
+    min-height: 115px;
+}
+.image{
+	float: right;
+	padding: 5px;
+}
+.horiznal-navigation{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0;
+	overflow: hidden;
+}
+.box{
+	color: black;
+	background-color: #9cf;
+	border-top: 1px solid #c0ffff;
+	border-right: 1px solid #00f;
+	border-bottom: 1px solid #00f;
+	border-left: 1px solid #c0ffff;
+	width: 222px;
+	margin: .5px;
+	text-align: center;;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: block;
+}
+.box1{
+	display: block;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #47c9ff;
+	width: 215px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+#x-axis{
+	float: left;
+}
+a:hover,a:active;{
+	background-color: #047bcf;
+}
+.down-navigation{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.footer{
+	text-align: 
+	background-color: rgba(0,153,255, .3);
+	background-size: 20px;
+}
+.use-table{
+	border: 1px solid black;
+	padding: 10px;
+}
+.blue{
+	background-color: rgba(0,153,255, .3);
+}
+.blue2{
+	background-color: #47c9ff;
+}
+#fix_area{
+	min-height: 250px;
+}
+.containerii{
+	height:auto;
+	border-radius: 10px;
+	width:800px;
+	margin-left: 10px;
+	margin-top:1px;
+	background-color:#EAF6F6;
+	padding: 10px;
+	float:left; 
+	margin-bottom: 20px;
+	margin: 0 auto;
+}

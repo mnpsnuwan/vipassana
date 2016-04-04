@@ -1,0 +1,96 @@
+html{
+	background: #e5e5e5;
+}
+body{
+	font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif; 
+}
+.container{
+	width: 800px;
+	margin: 0px auto;
+	min-height: 500px;
+	background: #fff;
+	border: 1px solid #ccc;
+	padding: 30px;  
+}
+h1,h2,h3{
+	margin-bottom: 15px;
+	font-family: "Arial Black",Gadget,sans-serif; 
+	font-weight: normal;
+	color: #1B7DE0;
+}
+h1{
+	font-size: 30px;
+}
+h2{
+	font-size: 24px;
+}
+h3{
+	font-size: 15px;
+}
+p{
+	margin-bottom: 15px;
+}
+pre{
+	padding: 10px 20px;
+	background: #e8d2ed;
+	border: 1px solid #064b76;
+	font-weight: bold;
+	color: #000;
+}
+a:link,a:visited{
+	color: #1787cf;
+	border-bottom: 1px dashed #1787cf;
+	text-decoration: none;
+}
+a:hover,a:active{
+	color: #064b76;
+	border-bottom: 1px dashed #064b76;
+}
+hr{
+	border-top: 1px solid #ccc;
+	margin: 20px 0;
+	height: 1px;
+	background-color: #333;
+}
+.clr{
+	clear: both;
+}
+.title{
+	text-align: center;
+	text-shadow: 1px 1px #000;
+	margin-top: 20px;
+}
+.title span{
+	color: red;
+}
+
+/*Tool Tip*/
+
+.tc input{
+	width: 10%;
+	padding: 5px;
+	display: block;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.tooltip{
+	background: rgba(0,0,0,.9);
+	width: 300px;
+	height: 50px;
+	padding: 0;
+	display: none;
+	position: absolute;
+	border-radius: 3px;
+}
+
+.tooltip h3{
+	margin-bottom: 0px;
+	text-align: center;
+}
+.tooltip p{
+	margin-bottom: 0px;
+	text-align: center;
+	color: #fff;
+	font-size: 12px;
+}
+

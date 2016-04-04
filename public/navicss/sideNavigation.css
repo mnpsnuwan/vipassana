@@ -1,0 +1,41 @@
+.Nav-left{
+    line-height:25px;
+    background-color:#F5EBDB;
+    width:auto;
+    float:left;
+    padding:5px 5px 5px 5px;
+    /*margin-top: 10px;*/ 
+}
+
+.Nav-left ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px ;
+    overflow: hidden;
+	margin-left: 0px;
+	margin-bottom:50px;
+	border-radius:5px;
+    margin-right:0px;
+	margin-bottom:0px;
+}
+/*
+li {
+    float: left;
+}
+*/
+.Nav-left a:link, a:visited {
+    display: block;
+    width: 230px;
+	font-size:18px;
+    font-weight: 500px;
+    color: #029;
+    background-color: #f6faf6;
+    text-align: left;
+    padding: 5px;
+    text-decoration: none;
+    text-transform: none;	
+}
+
+.Nav-left a:hover, a:active {
+    background-color: #73DCFF;
+}

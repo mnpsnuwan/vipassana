@@ -1,0 +1,165 @@
+.comment-insert
+{
+    height: 100px;
+    width: auto;
+    margin: 10px 5px 5px 5px;
+    border: 1px solid #e1e1e1;
+    position: relative;
+}
+
+.comment-fade-btn-wrapper 
+{
+    position: inherit;
+    margin:5px 5px 5px 5px;
+    width: auto;
+    height: 30px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.comment-fade-btn-wrapper button
+{
+    width: 150px;
+    height: 30px;
+    line-height: 20px;
+    background: #00bfff;
+    color: #fff1bb;
+    font-size: 13px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #ffffbb
+}
+
+.comment-fade-btn-wrapper button:hover
+{
+    background: #008fff;
+    color: #444;
+    border: 1px solid #a1a1a1;
+}
+
+
+.comment-insert h3.who-says
+{    height: 30px;
+    line-height: 27px;
+    color: #008fff;
+    font-size: 13px;
+    width: auto;
+    margin: 0px 10px 0px 10px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.comment-insert h3.who-says span
+{
+    color: #005fff;
+}
+.pop-up-window
+{
+    position: absolute;
+    margin:10px 0 10px -10px;
+    width: 100%;
+    height: 50px;
+    line-height: 20px;
+    text-align: center;
+	text-decoration:none;
+}
+
+.pop-up-window ul.add-comment
+{
+    list-style: none;
+}
+
+.pop-up-window ul.add-comment li
+{
+    //float:left;
+}
+
+.pop-up-window ul.add-comment li a
+{
+    width: 150px;
+    display: block;
+    border: 1px solid #a1a1a1;
+    height:50px;
+    text-align: center;
+    margin-left: auto;
+    text-align: center;
+	text-decoration:none;
+}
+.pop-up-window ul.add-comment li a:hover
+{
+    border: 1px solid #ddd;
+    color:#ccc;
+	border: 1px solid #005fff;
+	text-decoration:none;
+}
+
+.pop-up-window ul.add-comment li a input.login-with
+{
+    width: 150px;
+    display: block;
+    border: 1px solid #a1a1a1;
+	background:#05afff;
+	font-size:18px;
+    height:50px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    text-align: center;
+	text-decoration:none;
+}
+.pop-up-window ul.add-comment li a input.login-with:hover
+{
+    background:#005fff;
+    color:#ccc;
+	border: 1px solid #005fff;
+	text-decoration:none;
+}
+
+.comment-insert .comment-insert-container
+{
+    margin: 5px 10px 5px 10px;
+    border: 1px solid #e1e1e1;
+    width: auto;
+    min-height: 57px;
+    position: relative;
+}
+
+.comment-insert .comment-insert-container:hover
+{
+    border: 1px solid #05afff;    
+}
+
+.comment-insert textarea.comment-insert-text
+{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    border: none;
+    width: 100%;
+    height: 100%;
+    color: #555;
+}
+
+.comment-post-btn-wrapper
+{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
+    background: #005fff;
+    color: #fff1bb;
+    font-size: 13px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #fff1bb
+}
+
+.comment-post-btn-wrapper:hover
+{
+    background: #008fff;
+    color: #444;
+    border: 1px solid #a1a1a1;
+}

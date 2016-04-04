@@ -1,0 +1,229 @@
+@charset "utf-8";
+/*CSS document*/
+
+body{
+	background-image: url("bird.jpg");
+	color: #000000;
+	/*font-family: "Times New Roman";*/
+	padding: 0.75rem;
+	font-size: 17px;
+	word-wrap:break-word;	
+}
+h1{
+	margin-left: 50px;
+	text-align: center; 
+	font-family: "cafeta";
+	color: #0609a3;
+	font-size: 45px;
+	font-weight: bolder;
+	background-color: beige;
+}
+h1:first-letter{
+	font-size: 60px;
+	color: #0609a3; 
+}
+h3{
+	font-size: 20px;
+	color: #02025e;
+}
+form{
+	margin-left: 50px;
+	padding-left: 25px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: beige;
+}
+label{
+	font-family: "Calibri (Body)"; 	
+	font-weight: bolder;
+}
+label{
+	display: inline-block;
+	width: 250px;
+}
+label[for=terms], label[for=approval]{
+	width: auto;
+}
+input{
+	font-size: 14px;
+	font-family: 'Lucida Grande', Tahoma, Verdana, sans-serif;
+}
+
+:-moz-placeholder {
+	color: #c9c9c9 !important;
+	font-size: 13px;
+}
+ 
+::-webkit-input-placeholder {
+	color: #ccc;
+	font-size: 13px;
+}
+
+input[type=text], [type=password], [type=tel], [type=email],[type=date] {/*Decarate text field(input space)*/
+  margin: 5px;
+  padding: 0 10px;
+  width: 250px;
+  height: 30px;
+  color: #02025e;
+  background: white;
+  border: 1px solid;
+  border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+  border-radius: 2px;
+  outline: 5px solid #eff4f7;
+  -moz-outline-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+input[type=text]:focus, input[type=password]:focus, input[type=tel]:focus, input[type=email]:focus, input[type=date]:focus {/*Hilight input area*/
+  border-color: #7dc9e2;
+  outline-color: #dceefc;
+  outline-offset: 0;
+}
+
+input[type=checkbox],input[type=radio] {/*make check box of remember me on this computer(kotuwa dekarete kla)*/
+	border: 1px solid #c0c0c0;
+	margin: 0 0.1em 0 0;
+	padding: 0;
+	font-size: 16px;
+	line-height: 1em;
+	width: 1.25em;
+	height: 1.25em;
+	background: #fff;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ededed), to(#fbfbfb)); 
+	-webkit-appearance: none;
+	-webkit-box-shadow: 1px 1px 1px #fff;
+	-webkit-border-radius: 0.25em;
+	vertical-align: text-top;
+	display: inline-block;
+ 
+}
+
+input[type=radio] {/*radio border*/
+	-webkit-border-radius: 2em; /* Make radios round */
+}
+
+input[type=checkbox]:checked::after {/*Check box tic mark*/
+	content:'\2022';/*add tic mark code to this space*/
+	display:block;
+	text-align: center;
+	font-size: 16px;
+	height: 16px;
+	line-height: 18px;
+}
+
+input[type=radio]:checked::after {
+	content:"\2022";
+	display:block;
+	height: 16px;
+	line-height: 15px;
+	font-size: 20px;
+	text-align: center;
+}
+
+input[type="submit"]:hover {
+	background-color: #c9c9c9;
+	box-shadow: 2px 2px 20px  #2c90c6, #fff 0 -1px 2px;
+}
+
+select{
+	font-size: 14px;
+	font-family: 'Lucida Grande', Tahoma, Verdana, sans-serif;
+}
+select[id=location], [id=mobile], [id=Year], [id=Month], select[id=Date]{
+	margin: 5px;
+	padding: 0 10px;
+	height: 30px;
+	color: #02025e;
+	background: white;
+	border: 1px solid;
+	border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+	border-radius: 2px;
+	outline: 5px solid #eff4f7;
+	-moz-outline-radius: 3px;
+	-webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+select[id=mobile]{
+	width: 75px;
+}
+select[id=location]{
+	width: 250px;
+}
+select[id=Year], select[id=Month], select[id=Date]{
+	width: 100px;
+}
+
+select[id=location]:focus, select[id=mobile]:focus, select[id=Year]:focus, select[id=Month]:focus, select[id=Date]:focus{/*hilight select area*/
+  border-color: #7dc9e2;
+  outline-color: #dceefc;
+  outline-offset: 0;
+}
+
+button{
+	position:relative;
+	/*transition: .8s ease;*/
+	background-size: 10px;
+	margin-top: 20px;
+	margin-left: 50px;
+	color:#0609a3;
+	font-weight: bold;
+	font-size: 14px;
+	border-radius: 3px;
+	border-color: #fad06a;
+	cursor: pointer;
+}
+button[for=create]{
+	margin: 5px;
+	padding: 0 10px;
+	width: 165px;
+	height: 34px;
+	background-color: #fbf15b;
+}
+button[for=reset], button[for=cancel]{
+	margin: 5px;
+	padding: 0 10px;
+	width: 75px;
+	height: 34px;
+	background-color: #fac04b;
+}
+
+button[for=reset]:focus, button[for=cancel]:focus, button[for=create]:focus{
+	background-color: #7dc9e2;
+	border-color: #7dc9e2;
+  	outline-color: #dceefc;
+  	outline-offset: 0;
+}
+
+.ss-form-container{
+	border-color: #400;
+	border: 1px solid #ccc;
+	background-color: #ebf1f2;
+}
+.ss-form-container{
+	transition: all 0.3s ease 0.5s;
+    border-radius: 2px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    /*box-sizing: border-box;*/
+    margin: 0.75rem auto;
+    padding: 0;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    max-width: 1000px;
+    min-width: 600px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+.ss-form-image-container{
+	text-align: center;
+	width: 1000px;
+	height: 10px;
+}
+.ss-form-image-container.img{
+	padding-top: 5px;
+
+}
+.ss-image-container{
+	padding:10px 10px 10px 10px;
+	margin-top: 10px;
+}
+

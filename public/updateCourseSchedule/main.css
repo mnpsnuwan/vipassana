@@ -1,0 +1,38 @@
+header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 15;
+}
+
+header{
+    display: block;
+}
+
+header #bar {
+    background-color: #f4f4f4;
+	background:"Capture.JPG";
+    //border-bottom: 2px solid #b4d4d4;
+    display: block;
+    height: 100px;
+    line-height: 150px;
+    overflow: hidden;
+    padding: 0px 1.95em;
+    width: 100%;
+}
+header #nav-content {
+    height: 100%;
+
+}
+
+#header{
+    width: 750px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    //border-style: solid;
+    border-width: thin;
+    //background-color: #2daafa;
+}
+

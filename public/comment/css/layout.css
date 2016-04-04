@@ -1,0 +1,179 @@
+@import url('comment_insert.css');
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+}
+
+a img
+{
+    border: none;
+}
+
+.wrapper
+{
+    background: #fff;
+    width: auto;
+    border: 1px solid #a1a1a1;
+    margin: 10px auto 10px auto;
+    height: auto;
+}
+.page-data
+{
+    width: auto;
+    height: 50px;
+    color: #666;
+    margin: 10px;
+    border-bottom: 1px solid #e1e1e1
+}
+.comment-wrapper
+{
+    margin: 10px;
+    border: 1px solid #e1e1e1;
+    height: auto;
+    width: auto;
+    color: #444;
+}
+h3.comment-title
+{
+    height: 40px;
+    line-height: 37px;
+    font-size: 16px;
+    margin: 0px 5px 0 5px;
+    color: #666;
+    border-bottom: 1px solid #e1e1e1;
+    
+}
+
+.comment-list
+{
+    height: auto;
+    font-size: 16px;
+    margin: 10px 5px 5px 5px;
+    color: #42454b;
+}
+
+ul.comment-holder-ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+
+ul.comment-holder-ul li.comment-holder
+{
+    list-style-type: none;
+    //background: #fffffa;
+    height: auto;
+    width: auto;
+    margin: 5px 0 10px 0;
+    border: 1px solid #e1e1e1;
+    overflow: hidden;
+    position: relative;
+}
+
+ul.comment-holder-ul li.comment-holder:hover
+{
+    background: #f8ffff;
+    border: 1px solid #c0c0c0;
+}
+
+ul.comment-holder-ul li.comment-holder .user-img
+{
+    float: left;
+    height: 60px;
+    width: 60px;
+    //background: #a1a1a1;
+    margin: 0 10px 0 0;
+}
+
+ul.comment-holder-ul li.comment-holder .user-img img.user-img-pic
+{
+    width: 50px;
+    height: auto;
+    margin: 5px;
+    border: 1px solid #a1a1a1;
+}
+
+ul.comment-holder-ul li.comment-holder .user-img img.user-img-pic:hover
+{
+    border: 1px solid #777;
+}
+
+.comment-body
+{
+    width: auto;
+    //float: left;
+    
+}
+
+ul.comment-holder-ul li.comment-holder .username-field
+{
+    height: 30px;
+    line-height: 27px;
+    color: #3472e4;
+    font-size: 16px;
+    margin: 0 0 0 10px;
+}
+
+ul.comment-holder-ul li.comment-holder .username-field:hover
+{
+    color: #02a;
+}
+
+ul.comment-holder-ul li.comment-holder .comment-text
+{
+    font-size: 16px;
+    width: auto;
+    display: block;
+    margin: 0 10px 10px 70px;
+    word-wrap: normal;               
+}
+
+ul.comment-holder-ul li.comment-holder:hover .comment-button-holder
+{
+    display: block;
+}
+
+.comment-button-holder
+{
+    display: none;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100px;
+    height: 20px;
+    //background: #027;
+    
+}
+
+.comment-button-holder ul
+{
+    list-style-type: none;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+
+.comment-button-holder ul li
+{
+    float: right;
+    height: 20px;
+    width: 20px;
+    background: #005fff;
+    color: #fff1bb;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.comment-button-holder ul li:hover
+{
+    background: #008fff;
+    color: #444;
+}

@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+.popup
+{
+   position: fixed;
+   margin-left:-23%;
+   width: 100%;
+   /*float:left;*/
+   opacity: 0.6;
+   top:0px;
+   min-height:200px;
+   height:100%;
+   z-index: 100;
+   background: #FFFFFF;
+   font-size: 20px;
+   text-align: center;
+   display:none;
+   
+}
+#login_form
+{
+	position:absolute;
+	width:auto;
+	top:200px;
+	left:40%;
+	background-color:#a1a1a1;
+	padding:30px;
+	border:1px solid #e1e1e1;
+	display:none;
+	z-index:101;
+	-moz-border-radius: 5px;
+	-moz-box-shadow: 0 0 10px #aaa;
+	-webkit-border-radius: 5px;
+	-webkit-box-shadow: 0 0 10px #aaa;
+}
+#login_form  input.login 
+{
+	margin-top:10px;
+	width: 75px;
+	height:30px;
+	background:#aaa;
+	color:#fff;
+	border:1px solid #ddd;
+	cursor:pointer;
+}
+#login_form input.cancel_hide
+{
+	margin-top:10px;
+	width: 75px;
+	height:30px;
+	background:#aaa;
+	color:#fff;
+	border:1px solid #ddd;
+	cursor:pointer;
+}
+
+
+#login_form input.sign-form
+{
+	margin-top:10px;
+	width: 75px;
+	height:30px;
+	background:#aaa;
+	color:#fff;
+	border:1px solid #ddd;
+	cursor:pointer;
+}
+
+#login_form  input.login:hover 
+{
+	background:#059fff;
+	color:#000;
+	border:1px solid #0ddfff;
+	cursor:pointer;
+}
+
+
+#login_form  input.sign-form:hover 
+{
+	background:#059fff;
+	color:#000;
+	border:1px solid #0ddfff;
+	cursor:pointer;
+}
+#login_form input.cancel_hide:hover
+{
+	background:#059fff;
+	color:#000;
+	border:1px solid #05dfff;
+	cursor:pointer;
+}
+
+#login_form a
+{
+	color:#004;
+}
+
+#login_form a:hover
+{
+	color:#029;
+}

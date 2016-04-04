@@ -1,0 +1,16 @@
+.header{
+	background-color: yellow;
+	margin-top: .2px;
+	/* max-height: 30px; */
+}
+.page-header{
+	background-color: #6BDFF3;
+	margin: 10px 0px 1px 0px !important;
+}
+.nav{
+	margin-bottom: 10px !important;
+}
+.img-rounded .resize{
+	height: 20px !important;
+	width: 20px !important;
+}
