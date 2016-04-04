@@ -1,2 +1,2 @@
 # vipassana
-UCSC 2nd year learning group project - Administrator System &amp; Website for Vipassana Meditation Center
+UCSC 2nd year learning group project - Administrator System and Website for Vipassana Meditation Center
